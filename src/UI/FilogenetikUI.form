@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Filogenetik UPGMA"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="batal" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="proses" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="teksJumlah" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="france" min="-2" max="-2" attributes="0"/>
+                          <Component id="thailand" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="teksSequence" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="korea" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="china" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="germany" alignment="0" min="-2" pref="163" max="-2" attributes="0"/>
+                          <Component id="eSequence" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="gap" min="-2" pref="34" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="eGap" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="teksGap" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="PAM250" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="BLOSUM62" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="teksMatriks" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="eMatriks" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jumlah" min="-2" pref="69" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="eJumlah" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="122" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="teksJumlah" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jumlah" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="eJumlah" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="teksGap" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="gap" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="eGap" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="teksMatriks" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PAM250" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="BLOSUM62" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="eMatriks" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="teksSequence" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="korea" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="thailand" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="china" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="france" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="germany" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="eSequence" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="38" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="proses" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="batal" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JCheckBox" name="korea">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Korea"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="koreaMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="thailand">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Thailand"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="thailandMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="china">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="China"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="chinaMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="france">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="France"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="franceMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="germany">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Germany"/>
+        <Property name="enabled" type="boolean" value="false"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="germanyMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jumlah">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jumlah"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jumlahMouseClicked"/>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="jumlahFocusLost"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jumlahKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="teksJumlah">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="masukkan jumlah sequence yang akan diproses (maksimal 5, minimal 3)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="teksSequence">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="pilih sequence yang akan diproses"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="proses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="proses"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="prosesMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="batal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="batal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="batalMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="teksGap">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="masukkan gap penjajaran"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="gap">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="gap"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gapMouseClicked"/>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="gapFocusLost"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="teksMatriks">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="pilih jenis matriks untuk penjajaran"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="PAM250">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PAM250"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="PAM250MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="BLOSUM62">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="BLOSUM62"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="BLOSUM62MouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eJumlah">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jumlah sequence tidak boleh kosong"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eSequence">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="sequence harus dipilih sebanyak jumlah sequence"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eGap">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="gap tidak boleh kosong"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="eMatriks">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="matriks belum dipilih"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
